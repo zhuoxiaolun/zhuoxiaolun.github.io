@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-farro: Farro;
+  --font-fenix: Fenix;
+  --font-alef: Alef;
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-dimgray: #656765;
+  --color-gainsboro: #d9d9d9;
+  --color-gray: rgba(255, 255, 255, 0.5);
+
+  /* Gaps */
+  --gap-71xl: 90px;
+  --gap-10xl: 29px;
+
+  /* Border radiuses */
+  --br-3xs: 10px;
+}

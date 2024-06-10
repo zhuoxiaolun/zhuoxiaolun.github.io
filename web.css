@@ -1,0 +1,70 @@
+.harborinfo{
+    color: var(--color-dimgray);
+    font-family: var(--font-farro);
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content:left; 
+    gap: var(--gap-71xl);
+  
+}
+
+.brand{
+    color: var(--color-dimgray);
+    font-family: var(--font-farro);
+  }
+  .card3 {
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+    
+  }
+  .card1 {
+    background-color: rgb(255, 255, 255);
+    height: 700px;
+    
+  }
+
+  .card2 {
+    background-color: rgb(255, 255, 255);
+    height: 350px;
+    
+  }
+  .footer3 {
+   
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    /* gap: var(--gap-71xl); */
+    align-items: center;
+    gap: 100px;
+    
+ 
+    font-size: var(--font-size-base);
+    color: var(--color-dimgray);
+    font-family: var(--font-farro);
+  }
+  .info67{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+ }
+
+ .close{
+    margin-top: 50px;
+    color: inherit;
+    cursor: pointer;
+ }
+ .card-body{
+  
+  font-family: var(--font-farro);
+ }
+
+ .card4 {
+    /* background-color: rgb(255, 255, 255); */
+    height: 2000px;
+background-color: aquamarine;
+    
+  }
+ 

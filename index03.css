@@ -1,0 +1,105 @@
+.header2 {
+  
+    background-color: var(--color-gray);
+  
+    height: 87px;
+    /* overflow: hidden;*/
+  
+    font-size: var(--font-size-base);
+    color: var(--color-dimgray);
+    font-family: var(--font-farro);
+ 
+     
+    
+  }
+  .zhuoinfo-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content:left; 
+    gap: var(--gap-71xl); 
+  }
+
+  .zhuoinfo2  {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+  }
+  .info4  {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+  }
+
+  .brand{
+    color: var(--color-dimgray);
+    font-family: var(--font-farro);
+  }
+
+  .card {
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+    
+  }
+  .footer3 {
+   
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    /* gap: var(--gap-71xl); */
+    align-items: center;
+    gap: 100px;
+    
+ 
+    font-size: var(--font-size-base);
+    color: var(--color-dimgray);
+    font-family: var(--font-farro);
+  }
+
+
+ .info67{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+ }
+ .card-body{
+  
+  font-family: var(--font-farro);
+ }
+
+ .overlay__toDown {
+	position: absolute;
+	bottom: 100%;
+	width: 100%;
+	height: 0;
+	background-color: rgba(59, 59, 59, 0.43);
+	overflow: hidden;
+	transition: 0.2s ease;
+}
+
+.card:hover .overlay__toDown {
+	height: 100%;
+	bottom: 0;
+  text-decoration: none;
+}
+
+
+.text {
+	height: 100%;
+	color: whitesmoke;
+	font-size: 1rem;
+
+	display: flex;
+	align-items: end;
+padding-bottom: 30px;
+	justify-content: left;
+  padding-left: 20px;
+}
+
+#product-hovor:hover  {
+  height: 100%;
+	bottom: 0;
+  text-decoration: none;
+}
